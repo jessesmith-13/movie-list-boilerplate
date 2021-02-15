@@ -1,0 +1,12 @@
+CREATE DATABASE IF NOT EXISTS movies;
+
+USE movies;
+
+CREATE TABLE movies (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  title VARCHAR(100) NOT NULL,
+  watched BOOLEAN NOT NULL DEFAULT 0,
+  year INT,
+  score INT,
+  rating INT
+);

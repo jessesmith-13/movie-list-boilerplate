@@ -1,0 +1,41 @@
+@import url("http://netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap-glyphicons.css");
+
+.movie {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.movie button {
+  grid-column-start: col-start 1;
+  width: 5em;
+}
+
+.watchedTrue {
+  background-color: green;
+}
+
+button:hover {
+  cursor: pointer;
+  outline: none;
+}
+
+.watchedornot {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /* grid-template-columns: repeat(auto-fit, minmax(min-content, 1fr)); */
+}
+
+.movieTitle:hover {
+  cursor: pointer;
+  color: blue;
+}
+
+.watched2 {
+  background-color: red;
+}
+
+.title:hover {
+  cursor: pointer;
+  color:aqua;
+}
